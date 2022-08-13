@@ -2,12 +2,12 @@ body {
     color: #fff;
     overflow-x: hidden;
     height: 100%;
-    background-color: #1998ce;
+    background-color: #e7ecee;
     background-repeat: no-repeat;
 }
 
 .card {
-    background-image: cover;
+    background-image: url('/static/img/home.jpg');
     background-size: cover;
     width: 600px;
     height: 350px;
@@ -20,16 +20,23 @@ body {
 
 .time-font {
     font-size: 50px;
+    color: #e7ecee;
 }
 
 .sm-font {
     font-size: 18px;
+    color: #e7ecee;
 }
 
 .med-font {
     font-size: 28px;
+    color: #e7ecee;
 }
 
 .large-font {
     font-size: 60px;
+    color: #e7ecee;
+}
+.mb-font{
+    color: #e7ecee;
 }
