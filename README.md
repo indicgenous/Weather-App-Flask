@@ -1,5 +1,4 @@
 # Weather-App-Flask 😎🌅
-![TeamupforimpactTermoGIF](https://user-images.githubusercontent.com/100989379/184537220-33751174-80a9-4485-ad25-8950e9776197.gif)
-
-Weather Web-app using Python 
-
+A Weather Web-app made using Python flask microframe-work , HTML & css 
+![Screenshot (288)](https://user-images.githubusercontent.com/100989379/184548294-2f38fa64-9241-427b-8c28-9863f1ec8a74.png)
+![Uploading Screenshot (287).png…]()
