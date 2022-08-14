@@ -32,7 +32,8 @@ def results():
     count=data["sys"]["country"]
     time=current_time
     dat=d2
-    return render_template('index.html',temp=temp,param=param,city_name=city_name,count=count,time=time,tempr=tempr,dat=dat)
+    des= (data['weather'][0]['description']).capitalize()
+    return render_template('index.html',temp=temp,param=param,city_name=city_name,count=count,time=time,tempr=tempr,dat=dat,des=des)
 
 
 if __name__=='__main__':
