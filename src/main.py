@@ -1,9 +1,11 @@
 from flask import Flask , render_template ,url_for , request
 import json , requests
-from datetime import datetime
+from datetime import datetime , date
 
 now = datetime.now()
 current_time = now.strftime("%H:%M:%S")
+today = date.today()
+d2 = today.strftime("%B %d, %Y")
 
 with open('config.json','r') as c:
     param = json.load(c)["param"]
@@ -29,7 +31,8 @@ def results():
     city_name=data["name"]
     count=data["sys"]["country"]
     time=current_time
-    return render_template('index.html',temp=temp,param=param,city_name=city_name,count=count,time=time,tempr=tempr)
+    dat=d2
+    return render_template('index.html',temp=temp,param=param,city_name=city_name,count=count,time=time,tempr=tempr,dat=dat)
 
 
 if __name__=='__main__':
