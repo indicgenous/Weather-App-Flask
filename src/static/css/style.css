@@ -4,10 +4,11 @@ body {
     height: 100%;
     background-color: #e7ecee;
     background-repeat: no-repeat;
+    /* background-image: url('/static/img/varsha.jpg'); */
 }
 
 .card {
-    background-image: url('/static/img/home.jpg');
+    background-image: url('/static/img/varsha.jpg');
     background-size: cover;
     width: 600px;
     height: 350px;
@@ -15,28 +16,24 @@ body {
     box-shadow: 0px 8px 16px 4px #9E9E9E;
     margin-top: 50px;
     margin-bottom: 50px;
+    color: #e7ecee;
 }
-
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
 
 .time-font {
     font-size: 50px;
-    color: #e7ecee;
 }
 
 .sm-font {
     font-size: 18px;
-    color: #e7ecee;
 }
 
 .med-font {
     font-size: 28px;
-    color: #e7ecee;
 }
 
 .large-font {
     font-size: 60px;
-    color: #e7ecee;
-}
-.mb-font{
-    color: #e7ecee;
 }

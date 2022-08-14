@@ -7,14 +7,16 @@
     <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
   </head>
 <body>
+  <!--weather card-->
 <div class="container-fluid px-1 px-md-4 py-5 mx-auto">
   <div class="row d-flex justify-content-center px-3">
       <div class="card">
-          <h2 class="ml-auto mr-4 mt-3 mb-font">Toronto</h2>
-          <p class="ml-auto mr-4 mb-0 med-font">Snow</p>
-          <h1 class="ml-auto mr-4 large-font">-20&#176;</h1>
+          <h2 class="ml-auto mr-4 mt-3 mb-font"> {{city_name}} </h2>
+          <p class="ml-auto mr-4 mb-0 med-font"> {{count}} </p>
+          <p class="ml-auto mr-4 mb-0 med-font"> {{des}} </p>
+          <h1 class="ml-auto mr-4 large-font"> {{tempr}} C &#176;</h1>
           <!-- <img src="{{url_for('static',filename='img/home.jpg')}}" style="width:100%;"> -->
-          <p class="time-font mb-0 ml-4 mt-auto">08:30 <span class="sm-font">AM</span></p>
+          <p class="time-font mb-0 ml-4 mt-auto"> {{time}} <span class="sm-font"> </span></p>
           <p class="ml-4 mb-4">Wednesday, 18 October 2019</p>
       </div>
   </div>

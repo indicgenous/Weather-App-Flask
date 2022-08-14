@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link href="static/css/sstyle.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <script src=" https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+  <!-- search bar -->
+  <div class='container'>
+    <div class='row justify-content-center'>
+      <div class='col-md-12'>
+        <h1>Search Your city hear</h1>
+        <p class='lead'></p>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-md-6'>
+        <div class='search-box'>
+          <form class='search' action="{{url_for('results')}}" method="post">
+            <input class='form-control' name="city_name" placeholder='ex: New-York , New-Delhi , Kolkata , Mumbai, ect.' type='text'>
+            <button class='btn btn-link search-btn'>
+              <i class='glyphicon glyphicon-search'></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
