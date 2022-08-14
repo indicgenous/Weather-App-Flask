@@ -38,7 +38,7 @@ def results():
 
 if __name__=='__main__':
     app.run(debug=True)
-    print("Current Time =", current_time)
+   
 
 
 
